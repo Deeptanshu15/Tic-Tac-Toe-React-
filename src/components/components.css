@@ -1,0 +1,64 @@
+.Header h1{
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+.Board {
+    position: absolute;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 3px #222 solid;
+}
+
+.Row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.Cell {
+    text-align: center;
+    border: 2px #222 solid;
+    margin: 0;
+    padding-top: 0.4em;
+    font-size: 3em;
+    background: #f5f5f5;
+    text-shadow: 2px 2px 2px #8f8f8f;
+    color: #222;
+}
+
+.Cell:hover{
+    cursor: pointer;
+}
+
+.Info h1{
+    text-align: center;
+    width: 100%;
+    margin-top: 400px;
+    position: absolute;
+    color: #222;
+}
+
+.Replay-Button{
+    border: 4px #222 solid;
+    padding: 10px;
+    width: 200px;
+    margin: 40px auto;
+    transition: all 0.5s;
+}
+
+.Replay-Button:hover{
+    cursor: pointer;
+    background: #222;
+    color: #f5f5f5;
+    transition: all 0.5s;
+}
